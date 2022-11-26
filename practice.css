@@ -1,0 +1,8 @@
+.practice{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.another-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

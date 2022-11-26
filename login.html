@@ -7,20 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <div class="verification-container">
         <style>
             .sign-up-button{
                 color:white;
                 background-color:blue;
                 border-width: 1px;
             }
+            .verification-container{
+                display: grid;
+                width: 500px;
+            }
         </style>
         <form>
             <fieldset>
                 <legend>Verfication page</legend>
-                <lable>Enter your Username</lable><br>
+                <lable class="user-name">Enter Username</lable><br>
                 <input type="text" name="name"><br>
-                <lable>Enter your password</lable><br>
+                <lable class="user-password">Enter User password</lable><br>
                 <input type="password" name="pass"><br><br>
                 <input class="sign-up-button" type="submit" value="sign-up">
             </fieldset>
