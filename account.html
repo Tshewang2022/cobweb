@@ -5,38 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
     <style>
-        .submit-button{
-            color:white;
-            background-color: blue;
-            border-width: 1px;
-            
+        body{
+            padding:10px;
+            padding-left:42px
         }
-        .registratiion-page{
-            display: grid;
-            width: 500px;
+        .header{
+            position: fixed;
+            top:0;
+            right:0;
+            left:0;
+        }
+        .side-bar{
+            background-color: lightpink;
+            color:white;
+            position:fixed;
+            left:0;
+            bottom:0;
+            top:20px;
+            width:50px;
 
         }
     </style>
-    <div class="registration-page">
-        <form>
-            <fieldset>
-                <legend>Registration page</legend>
-                <lable>Enter your first name:</lable>
-                <input type="text" name="username" value=""><br><br>
-                <lable>Enter your second name:</lable>
-                <input type="text" name="2name" value=""><br><br>
-                <lable>Enter your password:</lable>
-                <input type="password" name="password" value=""><br><br>
-                <label>Confirm your password:</label>
-                <input type="password" name="password" value=""><br>
-                <div>
-                    <input type="submit" class="submit-button">
-                </div>
-            </fieldset>
-        </form>
+</head>
+<body>
+    <div class="header" style="
+        background-color:blue;">
+        header section
+    </div>
+    <div class="side-bar">
+        sidebar
+        <div style="
+        position:absolute;
+        background-color:red;
+        color:white;
+        left :0;
+     ">
+        absolute
+    </div>
+    <div style="
+        position:absolute;
+        background-color:red;
+        color:white;
+        left :0;
+
+    ">
+        absolute
+    </div>
+    <div style="
+        background-color:rgb(224, 135, 17); height:300px; width:300px;"> 
+        div 1
+    </div>
+    <div style="
+        background-color:rgb(22, 23, 20); height: 300px; width: 300px">
+        div 2 
     </div>
 </body>
 </html>
